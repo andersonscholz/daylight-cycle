@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horário do dia</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body id="fundo">
+    <div class="painel" id="painel">
+        <div class="txt"><h1>Horário do dia</h1></div>
+        <div class="input">Horário: <input type="number" max="24" min="00" id="hours" oninput="maxhora24()"><button id="botao" onclick="calcular()">Calc</button></div>
+        <div class="resposta" id="result">Resposta</div> 
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

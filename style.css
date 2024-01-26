@@ -1,0 +1,55 @@
+body, .painel{
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+    justify-content:  center;
+    transition: background-color 0.5s ease;
+}
+.painel{
+    background-color: black;
+    color:white;
+    width: 400px;
+    height: 200px;
+    border: none;
+    border-radius: 90px;
+    box-sizing: border-box;
+    margin-top: 27vh;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: background-color 0.5s ease;
+    transition: color 0.5s ease;
+
+
+
+
+}
+.txt {
+    margin-top: -15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 0px 0cqmax 30px;
+
+}
+#botao{
+    width: 50px;
+    height: 30px;
+    border: none;
+    margin-left: 20px;
+    border-radius: 60px;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: white;
+
+}
+#botao:hover{
+    background-color: gray;
+    width: 48px;
+    height: 28px;
+    margin: 1px;
+    margin-left: 20px;
+}
+input{
+    width: 50px;
+}
+.resposta{
+    margin-top: 10px;
+}
